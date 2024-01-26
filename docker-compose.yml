@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: ./form-builder
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "3000:3000"
+    depends_on:
+      - node-app
+
+  node-app:
+    build: ./app-builder
+    ports:
+      - "8080:8080"
