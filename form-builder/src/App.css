@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+}
+
+.left-sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.draggable-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.form-builder {
+  flex: 1;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+.form-element {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
